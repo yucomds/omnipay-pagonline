@@ -1,0 +1,24 @@
+{
+    "name": "omnipay/unicredit",
+    "type": "library",
+    "description": "PagOnline Unicredit gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "unicredit",
+        "pagonline",
+        "purchase"
+    ],
+    "homepage": "https://github.com/yucomds/omnipay-pagonline",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Omnipay\\Pagonline\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "prefer-stable": true
+}
